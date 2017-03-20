@@ -10,29 +10,40 @@
     <header>
 
     </header>
-    <div class="boutons">
-      <button type="button" onclick="display(this)" name="element01">Phase 1</button>
-      <button type="button" onclick="display(this)" name="element02">Phase 2</button>
-      <button type="button" onclick="display(this)" name="element03">Phase 3</button>
-      <button type="button" onclick="display(this)" name="element04">Phase 4</button>
-      <button type="button" onclick="display(this)" name="element05">Phase 5</button>
-    </div>
+
     <div class="display">
-      <div class="btn-display" name="element01-content" style="display:none;">
+
+    <div class="bloque">
+      <div id="bonbon" class="btn-display" name="element01-content" style="opacity:0;">
         contenus 01
       </div>
-      <div class="btn-display" name="element02-content" style="display:none;">
+      <button type="button" onclick="cake(this)" name="element01">Phase 1</button>
+  </div><!--
+  --><div class="bloque">
+      <div class="btn-display" name="element02-content" style="opacity:0;">
         contenus 02
       </div>
-      <div class="btn-display" name="element03-content" style="display:none;">
+       <button type="button" onclick="display(this)" name="element02">Phase 2</button>
+    </div><!--
+--><div class="bloque">
+      <div class="btn-display" name="element03-content" style="opacity:0;">
         contenus 03
       </div>
-      <div class="btn-display" name="element04-content" style="display:none;">
-        contenus 04
-      </div>
-      <div class="btn-display" name="element05-content" style="display:none;">
+      <button type="button" onclick="display(this)" name="element03">Phase 3</button>
+    </div><!--
+--><div class="bloque">
+     <div class="btn-display" name="element04-content" style="opacity:0;">
+         contenus 04
+     </div>
+     <button type="button" onclick="display(this)" name="element04">Phase 4</button>
+    </div><!--
+--><div class="bloque">
+      <div class="btn-display" name="element05-content" style="opacity:0;">
         contenus 05
       </div>
+      <button type="button" onclick="display(this)" name="element05">Phase 5</button>
+    </div>
+
     </div>
     <footer>
       <script type="text/javascript" src="js/script.js"></script>
